@@ -22,7 +22,7 @@ function obterMedia(notas){
     
     let media = notasComputadas.reduce(function(total, current){
         return total + current
-    })/notasComputadas.length 
+    }, 0)/notasComputadas.length 
     
     return media
 }
